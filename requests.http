@@ -1,0 +1,24 @@
+GET http://localhost:3000/ HTTP/1.1
+###
+GET http://localhost:3000/test HTTP/1.1
+###
+GET http://localhost:3000/category HTTP/1.1
+### 
+POST http://localhost:3000/category HTTP/1.1
+content-type: application/json
+
+{
+    "name": "No Recomendable"
+}
+###
+GET http://localhost:3000/food HTTP/1.1
+###
+POST http://localhost:3000/food HTTP/1.1
+content-type: application/json
+
+{
+    "name": "alimento 4",
+    "description": "descripcion generica 4",
+    "isEdible": "NO",
+    "categoryName": "No Recomendable"
+}
