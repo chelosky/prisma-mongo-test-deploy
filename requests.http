@@ -13,11 +13,11 @@ content-type: application/json
 ###
 GET https://prisma-mongo-test-deploy-production.up.railway.app/food HTTP/1.1
 ###
-POST https://prisma-mongo-test-deploy-production.up.railway.app/food HTTP/1.1
+POST https://prisma-mongo-test-deploy-budvu0a7y-chelosky.vercel.app/food HTTP/1.1
 content-type: application/json
 
 {
-    "name": "alimento 5",
+    "name": "alimento 6",
     "description": "descripcion generica 5",
     "isEdible": "NO",
     "categoryName": "No Recomendable"
