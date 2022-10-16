@@ -11,14 +11,14 @@ content-type: application/json
     "name": "No Recomendable"
 }
 ###
-GET http://localhost:3000/food HTTP/1.1
+GET https://prisma-mongo-test-deploy-production.up.railway.app/food HTTP/1.1
 ###
-POST http://localhost:3000/food HTTP/1.1
+POST https://prisma-mongo-test-deploy-production.up.railway.app/food HTTP/1.1
 content-type: application/json
 
 {
-    "name": "alimento 4",
-    "description": "descripcion generica 4",
+    "name": "alimento 5",
+    "description": "descripcion generica 5",
     "isEdible": "NO",
     "categoryName": "No Recomendable"
 }
